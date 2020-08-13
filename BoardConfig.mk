@@ -50,3 +50,6 @@ TARGET_HAS_NO_WLAN_STATS := true
 
 # inherit from the proprietary version
 -include vendor/motorola/payton/BoardConfigVendor.mk
+
+# RR
+TARGET_FACE_UNLOCK_SUPPORTED := true
