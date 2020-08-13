@@ -30,7 +30,9 @@ BOARD_HAVE_QCOM_FM := true
 BOARD_HAS_QCA_FM_SOC := "cherokee"
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_payton_defconfig
+TARGET_PREBUILT_KERNEL := device/motorola/payton/Image.gz-dtb
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_HEADER_ARCH := arm64
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/touch.xml
